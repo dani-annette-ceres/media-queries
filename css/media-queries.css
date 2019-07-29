@@ -1,0 +1,127 @@
+html {background-color: black;
+
+}
+body * {box-sizing: border-box;
+    grid-gap: 5px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.content {padding: 5px;
+
+}
+
+@media screen and (min-width:375px) and (max-width:812px) {
+    .alert-info, .hidden-on-desktop {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        background-color: white;
+        margin: 0 18px;
+        justify-content: space-around;
+        padding-left: 15px;
+        padding-right: 15px;
+
+
+    }
+
+    .alert-info .hidden-on-desktop {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .alert-info a {text-decoration: none;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 80%;
+        height: 50%;
+        margin: 10px;
+        padding: 15px 0;
+        border: 1px solid #c1c1c1;
+        background-color: #c3ffff;
+        color: black;
+        font-size: 15px;
+
+    }
+
+    h1 {grid-area: 2 / 1 / 3 / 2;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        margin: 0;
+        font-family: Arial;
+        font-size: 50px;
+
+
+    }
+
+    nav { grid-area: 3 /1 / 4 /2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0;
+
+
+
+
+    }
+
+    ul {list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;}
+
+    ul li {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        width: 90vw;
+        height: 2.5em;
+        border: 1px solid #c1c1c1;
+        background-color: #c1c1c1;
+
+    }
+    .header-img {grid-area: 4 / 1 / 5 / 2;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    img {height: auto;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .main.sub-section {grid-area: 5 / 1 / 6 / 2;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h2 {padding-bottom: 10px;
+
+    }
+
+    p {margin-bottom: 20px;
+
+    }
+
+    footer { grid-area: 7 / 1 / 8 / 2;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 40px;
+
+    }
+}
