@@ -13,6 +13,8 @@
 
     html {background-color: black;
 
+        /* setting a max width and margin auto creates a container for the whole project */
+
     }
     body * {box-sizing: border-box;
         grid-gap: 5px;
@@ -39,22 +41,25 @@
     .alert-info .hidden-on-desktop {
         grid-area: 1 / 1 / 2 / 2;
         display: flex;
-        align-content: center;
         justify-content: center;
-        width: 80%;
-        height: 50%;
+        align-content: center;
+        padding: 2em;
+
 
 
 
 
     }
 
-    .alert-info a {text-decoration: none;
+    .alert-info a {display: flex;
+        text-decoration: none;
         border: 1px solid #c1c1c1;
         background-color: #c3ffff;
         color: black;
         font-size: 15px;
-        padding: 15px 220px;
+        padding: 1em;
+        justify-content: center;
+
 
 
 
