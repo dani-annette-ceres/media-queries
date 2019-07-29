@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width:500px) and (max-width:812px) {
+@media screen and (min-width:375px) and (max-width:812px) {
     .alert-info, .hidden-on-desktop {
         text-align: center;
         text-decoration: none;
